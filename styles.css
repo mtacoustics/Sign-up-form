@@ -54,7 +54,7 @@ table {
 
 /* Landing Page Classes */
 
-.button-container {
+.nav-container {
     background-color: white;
     border: solid black 2px;
     border-radius: 15px;
@@ -71,7 +71,7 @@ table {
     padding: 60px 0 120px;
 }
 
-.button-container button {
+.nav-container button {
     height: 40px;
     width: 85%;
     background-color: #2F0F5D;
