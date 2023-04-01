@@ -7,3 +7,7 @@ Will be styling this for both mobile devices and desktop.
 
 # Notes:
 
+# attributes
+
+Image for header: Photo by Shifaaz Shamoon
+View: https://unsplash.com/photos/okVXy9tG3KY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
