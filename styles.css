@@ -59,9 +59,16 @@ table {
     border: solid black 2px;
     border-radius: 15px;
     box-shadow: 5px 5px 25px black;
-    height: 520px;
+    height: 250px;
     width: 85%;
     margin: 0 auto;
+}
+
+.action-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 60px 0 120px;
 }
 
 .button-container button {
@@ -73,6 +80,19 @@ table {
     border-radius: 8px;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 1.05rem;
+}
+
+.socials-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    bottom: 25px;
+    padding-top: 230px;
+}
+
+.social-icon {
+    font-size: 30px;
+    color: #2F0F5D;
 }
 
 /* landing page Id's */
@@ -109,6 +129,13 @@ h1 {
 
 .header-image {
     width: 100%;
+}
+
+.footer-image {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 .header {
@@ -237,6 +264,7 @@ hr {
 .Sign-in a {
     text-decoration: none;
 }
+
 
 
 /* Id's */
