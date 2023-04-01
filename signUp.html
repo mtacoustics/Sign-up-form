@@ -4,43 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign up!</title>
+    <script src="https://kit.fontawesome.com/688f188961.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="header">
+        <div class="home-btn"><a href="index.html"><i class="fa-solid fa-house btn-home"></i></a></div>
         <img class="header-image" src="images/wave.png" alt="">
         <h1>Sign up!</h1>
-        <h3 class="sub-header">Welcome back, you've been missed.</h3>
+        <h3 class="sub-header">Welcome, we are happy to meet you.</h3>
     </div>
 
     <div class="form-container">
         <form action="" method="get" class="log-in">
+            <div class="top-user-div">
+                <input type="text" name="email" id="email" placeholder="Email" required>
+            </div>
             <div class="user-div">
                 <input type="text" name="user-name" id="name" placeholder="Username" required>
             </div>
-            <div class="pass-div">
+            <div class="user-div">
                 <input type="password" id="pass" name="password" minlength="8" placeholder="Password" required>
             </div>
-            <div class="pass-recovery">
-                <a href="">Password Recovery</a>
+            <div class="confirm-pass-div">
+                <input type="password" id="pass" name="password" minlength="8" placeholder="Confirm Password" required>
+            </div>
+            <div class="check-box-div">
+                <div class="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter" checked>
+                    <label for="scales">Sign up for our newsletter?</label>
+                </div>
+                <div class="terms">
+                    <input type="checkbox" id="newsletter" name="newsletter" required>
+                    <label for="scales">Agree to our <span><a href="">Terms of Service</a></span></label>
+                </div>
             </div>
             <div class="form-btn">
-                <input type="submit" value="Sign in!" id="sign-in">
+                <input type="submit" value="Sign up!" id="sign-in">
             </div>
-            <div class="line-break">
-                <p class="line-break-text">Or Continue With</p>
-                <hr size="1">
+            <div class="Sign-in">
+                <p>Already a member?</p>
+                <a href="SignIn.html">Sign in now</a>
             </div>
-            <div class="alt-signin">
-                <button><i class="fa-brands fa-google alt-btn"></i></button>
-                <button><i class="fa-brands fa-apple alt-btn"></i></button>
-                <button><i class="fa-brands fa-facebook alt-btn"></i></button>
-            </div>
-            <div class="register">
-                <p>Not a member?</p>
-                <a href="signUp.html">Register now</a>
-            </div>
+            
         </form>
     </div>
 </body>

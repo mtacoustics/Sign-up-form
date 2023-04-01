@@ -48,6 +48,38 @@ table {
 	border-spacing: 0;
 }
 
+/* Landing page Elements */
+
+
+
+/* Landing Page Classes */
+
+.button-container {
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 25px black;
+    height: 520px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.button-container button {
+    height: 40px;
+    width: 85%;
+    background-color: #2F0F5D;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.05rem;
+}
+
+/* landing page Id's */
+
+
+
+
 /* Elements */
 
 body {
@@ -62,13 +94,18 @@ h1 {
     padding-bottom: 25px;
 }
 
-i {
-    font-size: 23px;
-    color: white;
-    background-color: #2F0F5D;
+/* Class */
+
+.home-btn {
+    position: absolute;
+    top: 15px;
+    left: 15px;
 }
 
-/* Class */
+.btn-home {
+    color: white;
+    font-size: 25px;
+}
 
 .header-image {
     width: 100%;
@@ -79,7 +116,7 @@ padding-bottom: 40px;
 }
 
 .sub-header {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: gray;
 }
 
@@ -93,12 +130,35 @@ padding-bottom: 40px;
     margin: 0 auto;
 }
 
+.top-user-div {
+    padding: 25px 0;
+}
+
 .user-div {
-    padding: 25px 0 ;
+    padding-bottom: 25px;
 }
 
 .pass-div {
     padding-bottom: 10px;
+}
+
+.confirm-pass-div {
+    padding-bottom: 30px;
+}
+
+.check-box-div {
+    width: 250px;
+    text-align: left;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.newsletter {
+    padding-bottom: 15px;
+}
+
+.terms a {
+    text-decoration: none;
 }
 
 .pass-recovery {
@@ -115,7 +175,7 @@ padding-bottom: 40px;
 }
 
 .form-btn {
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .line-break-text {
@@ -134,12 +194,18 @@ hr {
     background-color: lightgray;
 }
 
+.alt-btn {
+    font-size: 23px;
+    color: white;
+    background-color: #2F0F5D;
+}
+
 .alt-signin {
     padding-top: 30px;
     display: flex;
     justify-content: center;
     gap: 35px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 .alt-signin button {
@@ -161,8 +227,30 @@ hr {
     text-decoration: none;
 }
 
+.Sign-in {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: .9rem;
+}
+
+.Sign-in a {
+    text-decoration: none;
+}
+
 
 /* Id's */
+
+#email {
+    height: 40px;
+    width: 85%;
+    background-color: white;
+    border: solid gray 2px;
+    border-radius: 8px;
+    color: black;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.05rem;
+}
 
 #name {
     height: 40px;
@@ -186,6 +274,11 @@ hr {
     font-size: 1.05rem;
 }
 
+#pass:invalid {
+    border-color: red;
+    opacity: 60%;
+}
+
 #sign-in {
     height: 40px;
     width: 85%;
@@ -195,4 +288,8 @@ hr {
     border-radius: 8px;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 1.05rem;
+}
+
+#newsletter {
+    padding-bottom: 20px;
 }
