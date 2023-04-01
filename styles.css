@@ -232,7 +232,7 @@ hr {
     display: flex;
     justify-content: center;
     gap: 35px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 .alt-signin button {
@@ -264,8 +264,6 @@ hr {
 .Sign-in a {
     text-decoration: none;
 }
-
-
 
 /* Id's */
 
