@@ -9,41 +9,48 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="home-btn"><a href="index.html"><i class="fa-solid fa-house btn-home"></i></a></div>
-    <div class="header">
-        <img class="header-image" src="images/wave.png" alt="">
-        <h1>Sign In!</h1>
-        <h3 class="sub-header">Welcome back, you've been missed.</h3>
-    </div>
+    <div class="left-flex-container">  
+        <div class="home-btn"><a href="index.html"><i class="fa-solid fa-house btn-home"></i></a></div>
+        <div class="header">
+            <img class="header-image" src="images/wave.png" alt="">
+            <h1>Sign In!</h1>
+            <h3 class="sub-header">Welcome back, you've been missed.</h3>
+            <div class="hidden">
+                <p>Please keep in mind this is not a real service. Any information entered is not stored in any way. You know you need a service like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started</p>
+            </div>
+        </div>
+    </div> 
 
-    <div class="form-container">
-        <form action="" method="get" class="log-in">
-            <div class="top-user-div">
-                <input type="text" name="user-name" id="name" placeholder="Username" required>
-            </div>
-            <div class="pass-div">
-                <input type="password" id="pass" name="password" minlength="8" placeholder="Password" required>
-            </div>
-            <div class="pass-recovery">
-                <a href="">Password Recovery</a>
-            </div>
-            <div class="form-btn">
-                <input type="submit" value="Sign in!" id="sign-in">
-            </div>
-            <div class="line-break">
-                <p class="line-break-text">Or Continue With</p>
-                <hr size="1">
-            </div>
-            <div class="alt-signin">
-                <button><i class="fa-brands fa-google alt-btn"></i></button>
-                <button><i class="fa-brands fa-apple alt-btn"></i></button>
-                <button><i class="fa-brands fa-facebook alt-btn"></i></button>
-            </div>
-            <div class="register">
-                <p>Not a member?</p>
-                <a href="signUp.html">Register now</a>
-            </div>
-        </form>
+    <div class="right-flex-container">
+        <div class="form-container">
+            <form action="" method="get" class="log-in">
+                <div class="top-user-div">
+                    <input type="text" name="user-name" id="name" placeholder="Username" required>
+                </div>
+                <div class="pass-div">
+                    <input type="password" id="pass" name="password" minlength="8" placeholder="Password" required>
+                </div>
+                <div class="pass-recovery">
+                    <a href="">Password Recovery</a>
+                </div>
+                <div class="form-btn">
+                    <input type="submit" value="Sign in!" id="sign-in">
+                </div>
+                <div class="line-break">
+                    <p class="line-break-text">Or Continue With</p>
+                    <hr size="1">
+                </div>
+                <div class="alt-signin">
+                    <button><i class="fa-brands fa-google alt-btn"></i></button>
+                    <button><i class="fa-brands fa-apple alt-btn"></i></button>
+                    <button><i class="fa-brands fa-facebook alt-btn"></i></button>
+                </div>
+                <div class="register">
+                    <p>Not a member?</p>
+                    <a href="signUp.html">Register now</a>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 </html>
